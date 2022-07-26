@@ -9,10 +9,10 @@ let package = Package(
     ],
     products: [
         .library(name: "NaverThirdPartyLogin",
-                 targets: ["NaverThirdPartyLogin.framework/NaverThirdPartyLogin"])
+                 targets: ["NaverIDLoginSample"])
     ],
     targets: [
-        .target(name: "NaverThirdPartyLogin.framework/NaverThirdPartyLogin",
+        .target(name: "NaverIDLoginSample",
                 path: "NaverIDLoginSample")
     ],
     swiftLanguageVersions: [
